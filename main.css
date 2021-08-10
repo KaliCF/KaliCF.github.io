@@ -1,0 +1,10 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/water-splashing-kiwi-fruit-half-kiwi-fruit-green-background_33736-3236.jpg?size=626&ext=jpg&ga=GA1.2.2100237715.1628467200");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactMe{
+    display: flex;
+    justify-content: center;
+}

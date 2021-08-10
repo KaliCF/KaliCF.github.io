@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="./main.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="one">
+        <!-- Nav -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/MoonlightKiwi.png" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                    Kiwi Codes
+                </a>
+            </div>
+        </nav>
+
+        <!-- About me -->
+        <div class="container-fluid">
+            <div class="container">
+                <h1 class="display-4">Kali Fenimore</h1>
+                <p class="lead">Hi! I'm Kali (kay-lee), nice to meet you!</p>
+            </div>
+        </div>
+        <br />
+
+        <!-- Projects -->
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <p>Recreated a static website. Using only HTML & CSS to accomplish this (no JavaScript).
+                            <br />
+                            <a href="https://kalicf.github.io/StaticLayout/">Static Layout</a>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <p>Built my own dynamic client side web application based off an existing site. Utilizes fetch
+                            to
+                            pull data from the selected API and then uses DOM manipulation to display the data from the
+                            API.
+                            <br />
+                            <a href="https://kalicf.github.io/APIproject1/">API Project One</a>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <p>Built a second dynamic client side web application utilizing fetch and DOM manipulation. Made
+                            in
+                            order to show understanding and ability to fetch data from an API, use DOM
+                            manipulation to tie the
+                            JavaScript to HTML, and the ability to then take that data and display it to the screen.
+                            <br /><a href="">API Project Two</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br />
+
+        <!-- contact info -->
+        <h2 class="text-center text-uppercase">Contact Me:</h2>
+        <form action="https://formspree.io/f/xjvjaqvn" method="POST" class="contactMe">
+            <label>
+                Your email:
+                <input type="email" name="_replyto">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+
+            <!-- your other form fields go here -->
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
