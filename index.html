@@ -14,7 +14,7 @@
 <body>
     <div id="one">
         <!-- Nav -->
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./assets/MoonlightKiwi.png" alt="" width="30" height="24"
@@ -28,61 +28,83 @@
         <div class="container-fluid">
             <div class="container">
                 <h1 class="display-4">Kali Fenimore</h1>
-                <p class="lead">Hi! I'm Kali (kay-lee), nice to meet you!</p>
+                <p class="lead">Hi! I'm Kali (kay-lee), nice to meet you! <br />
+                    You can find me on:
+                <ul>
+                    <li>
+                        <a href="https://github.com/KaliCF" class="github">GitHub</a>
+                    </li>
+                    <li><a href="www.linkedin.com/in/kali-fenimore" class="linkedin">LinkedIn</a></li>
+                </ul>
+                </p>
             </div>
         </div>
         <br />
 
         <!-- Projects -->
         <section id="projects">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <p>Recreated a static website. Using only HTML & CSS to accomplish this (no JavaScript).
-                            <br />
-                            <a href="https://kalicf.github.io/StaticLayout/">Static Layout</a>
-                        </p>
+            <div class="row">
+                <div class="cardOne" style="width: 18rem;">
+                    <img src="/Portfolio/assets/Kast.PNG" class="card-img-top" alt="Static Kast Layout">
+                    <div class="card-body">
+                        <h5 class="card-title">StaticLayout Project</h5>
+                        <p class="card-text">Recreated a static website. Using only HTML & CSS to accomplish this
+                            (no
+                            JavaScript).</p>
+                        <a href="https://kalicf.github.io/StaticLayout/" class="btn btn-primary">Static Layout</a>
                     </div>
-                    <div class="col-4">
-                        <p>Built my own dynamic client side web application based off an existing site. Utilizes fetch
+                </div>
+                <div class="cardTwo" style="width: 18rem;">
+                    <img src="/Portfolio/assets/API1.PNG" class="card-img-top" alt="Ghibli API">
+                    <div class="card-body">
+                        <h5 class="card-title">API Project One</h5>
+                        <p class="card-text">Built my own dynamic client side web application based off an existing
+                            site.
+                            Utilizes fetch
                             to
-                            pull data from the selected API and then uses DOM manipulation to display the data from the
-                            API.
-                            <br />
-                            <a href="https://kalicf.github.io/APIproject1/">API Project One</a>
-                        </p>
-                    </div>
-                    <div class="col-4">
-                        <p>Built a second dynamic client side web application utilizing fetch and DOM manipulation. Made
-                            in
-                            order to show understanding and ability to fetch data from an API, use DOM
-                            manipulation to tie the
-                            JavaScript to HTML, and the ability to then take that data and display it to the screen.
-                            <br /><a href="">API Project Two</a>
-                        </p>
+                            pull data from the selected API and then uses DOM manipulation to display the data from
+                            the
+                            API.</p>
+                        <a href="https://kalicf.github.io/APIproject1/" class="btn btn-primary">Studio Ghibli
+                            API</a>
                     </div>
                 </div>
             </div>
-        </section>
-        <br />
-
-        <!-- contact info -->
-        <h2 class="text-center text-uppercase">Contact Me:</h2>
-        <form action="https://formspree.io/f/xjvjaqvn" method="POST" class="contactMe">
-            <label>
-                Your email:
-                <input type="email" name="_replyto">
-            </label>
-            <label>
-                Your message:
-                <textarea name="message"></textarea>
-            </label>
-
-            <!-- your other form fields go here -->
-
-            <button type="submit">Send</button>
-        </form>
+            <div class="cardThree" style="width: 18rem;">
+                <img src="/Portfolio/assets/API2.PNG" class="card-img-top" alt="GIPHY API">
+                <div class="card-body">
+                    <h5 class="card-title">API Project Two</h5>
+                    <p class="card-text">Built a second dynamic client side web application utilizing fetch and DOM
+                        manipulation. Made
+                        in
+                        order to show understanding and ability to fetch data from an API, use DOM
+                        manipulation to tie the
+                        JavaScript to HTML, and the ability to then take that data and display it to the screen.</p>
+                    <a href="https://kali-api2-project.web.app" class="btn btn-primary">GIPHY API</a>
+                </div>
+            </div>
     </div>
+    </section>
+    <br />
+
+    <!-- contact info -->
+    <h2 class="text-center text-uppercase">Contact Me:</h2>
+    <form action="https://formspree.io/f/xjvjaqvn" method="POST" class="contactMe">
+        <label>
+            Your email:
+            <input type="email" name="_replyto">
+        </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+
+        <!-- your other form fields go here -->
+
+        <button type="submit">Send</button>
+    </form>
+    </div>
+    <br />
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"

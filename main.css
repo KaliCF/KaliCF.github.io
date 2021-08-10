@@ -4,7 +4,33 @@ body{
     background-size: cover;
 }
 
+.cardOne{
+    margin: auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.cardTwo{
+    margin: auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.cardThree{
+    margin: auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
 .contactMe{
-    display: flex;
-    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.github{
+    color: black;
+}
+
+.linkedin{
+    color:black;
 }
