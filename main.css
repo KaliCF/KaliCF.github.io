@@ -1,8 +1,18 @@
 body{
+    background-color: #10111B;
+    margin: 0%;
+    padding: 0%;
+}
+
+.landing{
     background-image: url("https://img5.goodfon.com/wallpaper/nbig/4/d2/by-shi-shi-paren-noch-luna-kosmos-kivi-ptichki-kivi-ptitsy-s.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-attachment: fixed; */
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    margin:-50px;
+    padding: 0%;
+    height: 1000px;
 }
 
 #nav{
@@ -11,51 +21,71 @@ body{
     width: 100%;
 }
 
+.container{
+    padding-top: 250px;
+}
+
 .projects{
     text-align: center;
+    padding-top: 200px;
+    margin: auto;
     color: grey;
     font-family: sans-serif;
+    text-shadow: 0 0 3px #2D2F45, 0 0 5px #2D2F45;
+}
+
+.imgOne{
+    margin-left: 28%;
 }
 
 .cardOne{
-    margin: auto;
+    margin-top: -80px;
     float: center;
-    margin-bottom: 10px;
-    background-color: rgba(245, 245, 245, 0.4);
+    background-color: rgba(1, 20, 53, 0.493);
+    color: grey;
+    box-shadow: 10px 5px 5px #2D2F45;
 }
 
 .cardTwo{
-    margin: auto;
+    margin-top: -80px;
     float: center;
-    margin-bottom: 10px;
-    background-color: rgba(245, 245, 245, 0.4);
+    background-color: rgba(1, 20, 53, 0.493);
+    color: grey;
+    box-shadow: 10px 5px 5px #2D2F45;
 }
 
 .cardThree{
-    margin: auto;
+    margin-top: -80px;
     float: center;
-    margin-bottom: 10px;
-    background-color: rgba(245, 245, 245, 0.4);
+    background-color: rgba(1, 20, 53, 0.493);
+    color: grey;
+    box-shadow: 10px 5px 5px #2D2F45;
 }
 
 .cardFour{
-    margin: auto;
+    margin-top: -80px;
+    margin-left: 30%;
     float: center;
-    margin-bottom: 10px;
-    background-color: rgba(245, 245, 245, 0.4);
+    background-color: rgba(1, 20, 53, 0.493);
+    color: grey;
+    box-shadow: 10px 5px 5px #2D2F45;
 }
 
 .cardFive{
-    margin: auto;
+    margin-top: -80px;
     float: center;
-    margin-bottom: 10px;
-    background-color: rgba(245, 245, 245, 0.4);
+    background-color: rgba(1, 20, 53, 0.493);
+    color: grey;
+    box-shadow: 10px 5px 5px #2D2F45;
 }
 
 .contactMe{
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgba(245, 245, 245, 0.4);
+}
+
+#contactMe{
+    width: 650px;
 }
 
 h2{
@@ -79,13 +109,27 @@ h2{
 }
 
 .resume{
-    color: grey;
-}
-.lead{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: grey;
+    color: darkgrey;
 }
 
-.display-4{
+.intro{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 80px;
     text-shadow:0 0 3px white, 0 0 5px white;
+}
+
+.display{
+    font-family: 'WindSong', cursive;
+    text-align: center;
+    font-size: 100px;
+    text-shadow:0 0 3px white, 0 0 5px white;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 80px;
+}
+
+.foot{
+    text-align: center;
 }
