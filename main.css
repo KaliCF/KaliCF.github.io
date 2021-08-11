@@ -1,36 +1,91 @@
 body{
-    background-image: url("https://img.freepik.com/free-photo/water-splashing-kiwi-fruit-half-kiwi-fruit-green-background_33736-3236.jpg?size=626&ext=jpg&ga=GA1.2.2100237715.1628467200");
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/4/d2/by-shi-shi-paren-noch-luna-kosmos-kivi-ptichki-kivi-ptitsy-s.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+#nav{
+    position: sticky;
+    top: 0%;
+    width: 100%;
+}
+
+.projects{
+    text-align: center;
+    color: grey;
+    font-family: sans-serif;
 }
 
 .cardOne{
     margin: auto;
-    float: none;
+    float: center;
     margin-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.4);
 }
 
 .cardTwo{
     margin: auto;
-    float: none;
+    float: center;
     margin-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.4);
 }
 
 .cardThree{
     margin: auto;
-    float: none;
+    float: center;
     margin-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+.cardFour{
+    margin: auto;
+    float: center;
+    margin-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+.cardFive{
+    margin: auto;
+    float: center;
+    margin-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.4);
 }
 
 .contactMe{
     margin-left: 10px;
     margin-right: 10px;
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+h2{
+    color: grey;
 }
 
 .github{
-    color: black;
+    color: darkgrey;
 }
 
 .linkedin{
-    color:black;
+    color:darkgrey;
+}
+
+.codePen{
+    color: darkgrey;
+}
+
+.row{
+    padding: 50px;
+}
+
+.resume{
+    color: grey;
+}
+.lead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.display-4{
+    text-shadow:0 0 3px white, 0 0 5px white;
 }
